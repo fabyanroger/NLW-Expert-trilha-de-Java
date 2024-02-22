@@ -30,13 +30,13 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 
 1. **Endpoint:** `/students/verifyIfHasCertification`
 2. **Método:** `POST`
-3. **Corpo da Solicitação:**
+3. **Corpo da Solicitação usando HTTPie:**
     ```bash
     http POST http://localhost:8080/students/verifyIfHasCertification email="exemplo@gmail.com" technology="JAVA"
     ```
    Certifique-se de ajustar o URL, o e-mail e a tecnologia conforme necessário.
 
-   - Ou faça como fiz e use Postman com configurações semelhantes.
+   - Ou, se preferir, use o Postman com configurações semelhantes.
 
 ## Contribuindo
 
